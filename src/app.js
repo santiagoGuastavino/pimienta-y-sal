@@ -15,4 +15,4 @@ app.use(express.static(publicPath));
 app.use('/', mainRouter);
 app.use('/detail', productRouter);
 
-app.listen(3001, () => console.log('Server running: 3001'));
+app.listen(process.env.PORT ||3001, () => console.log('Server running: 3001'));
