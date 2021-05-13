@@ -12,7 +12,12 @@
         <div class="ps-col l6 ps-padding-large">
           <h1 class="ps-center"><%= dish.name %></h1>
           <br />
-          <h4>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</h4>
+          <% if (dish.longDescription == undefined) { %>
+            <h2>Plato típico</h2>
+            <h4>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Atque, qui accusamus? Veritatis cum iure repudiandae facilis placeat nihil iusto nulla natus. Cupiditate itaque, aperiam porro esse quaerat minus corrupti debitis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus nobis facere vero ea libero incidunt, aut unde impedit. Odit rem sunt inventore deserunt a placeat laudantium neque, non delectus doloribus! Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim nihil magnam voluptatum eum, delectus quibusdam praesentium sint? Totam omnis et laborum velit repudiandae! Eligendi recusandae dolore omnis provident odit voluptates?</h4>
+          <% } else { %>
+            <h4><%= dish.longDescription %></h4>
+          <% } %>
           <p class="ps-text-grey">
             <%= dish.description %>
           </p>
