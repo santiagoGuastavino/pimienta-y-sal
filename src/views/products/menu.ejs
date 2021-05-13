@@ -1,0 +1,28 @@
+<!-- Menu Section -->
+<div class="ps-row ps-padding-64" id="menu">
+    <div class="ps-col l6 ps-padding-large">
+      <h1 id="menu">Menu</h1>
+      <br />
+      <% for (i=0 ; i < dish.length ; i++) { %>
+      <div class="title-and-link">
+        <h4 class="title"><%= dish[i].name %></h4>
+        <a class="link" href="<%= dish[i].link %>"><i class="fas fa-external-link-alt"></i></a>
+      </div>
+      <p class="ps-text-grey">
+        <%= dish[i].description %>
+      </p>
+      <p class="ps-text-grey">
+        <%= dish[i].price %>
+      </p>
+      <br />
+      <% } %>
+    </div>
+
+    <div class="ps-col l6 ps-padding-large ps-img-menu">
+      <img
+        src="/img/menu.jpg"
+        class="ps-round ps-image ps-opacity-min"
+        alt="Menu"
+      />
+    </div>
+  </div>
