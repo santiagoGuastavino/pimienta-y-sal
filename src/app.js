@@ -7,7 +7,7 @@ let productRouter = require('./routes/product');
 
 app.set('view engine', 'ejs');
 let viewsPath = path.resolve('./src/views');
-app.set('views', path.join(__dirname, 'views'));
+app.set('views', path.join(viewsPath));
 
 let publicPath = path.resolve('public');
 app.use(express.static(publicPath));

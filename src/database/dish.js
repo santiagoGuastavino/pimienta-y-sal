@@ -12,7 +12,7 @@ let dish = [
         id: 2,
         name: 'Risotto de berenjena',
         description: 'Risotto de berenjena y queso de cabra',
-        longDescription: 'Risotto de berenjena y queso de cabra Risotto de berenjena y queso de cabra Risotto de berenjena y queso de cabra Risotto de berenjena y queso de cabra Risotto de berenjena y queso de cabra Risotto de berenjena y queso de cabra Risotto de berenjena y queso de cabra Risotto de berenjena y queso de cabra Risotto de berenjena y queso de cabra Risotto de berenjena y queso de cabra',
+        longDescription: 'Descripción de risotto de berenjena y queso de cabra',
         price: 'U$S 47.00',
         link: '/detail/2',
         img: '/img/Risotto-berenjena-queso-cabra.jpg'
@@ -30,7 +30,7 @@ let dish = [
         id: 4,
         name: 'Espárragos blancos',
         description: 'Espárragos blancos con vinagreta de verduras y jamón ibérico',
-        longDescription: 'Espárragos blancos con vinagreta de verduras y jamón ibérico Espárragos blancos con vinagreta de verduras y jamón ibérico Espárragos blancos con vinagreta de verduras y jamón ibérico Espárragos blancos con vinagreta de verduras y jamón ibérico Espárragos blancos con vinagreta de verduras y jamón ibérico Espárragos blancos con vinagreta de verduras y jamón ibérico Espárragos blancos con vinagreta de verduras y jamón ibérico Espárragos blancos con vinagreta de verduras y jamón ibérico',
+        longDescription: 'Descripción de espárragos blancos con vinagreta de verduras y jamón ibérico',
         price: 'U$S 37.50',
         link: '/detail/4',
         img: '/img/esparragos.png'
@@ -48,7 +48,7 @@ let dish = [
         id: 6,
         name: 'Achuras pampeanas',
         description: 'Chinchulines, mollejas y otros bocados que logran un plato regional típico',
-        longDescription: 'Chinchulines, mollejas y otros bocados que logran un plato regional típico Chinchulines, mollejas y otros bocados que logran un plato regional típico Chinchulines, mollejas y otros bocados que logran un plato regional típico Chinchulines, mollejas y otros bocados que logran un plato regional típico Chinchulines, mollejas y otros bocados que logran un plato regional típico Chinchulines, mollejas y otros bocados que logran un plato regional típico Chinchulines, mollejas y otros bocados que logran un plato regional típico ',
+        longDescription: 'Descripción de hinchulines, mollejas y otros bocados que logran un plato regional típico',
         price: 'U$S 72.00',
         link: '/detail/6',
         img: '/img/achuras.jpg'
