@@ -48,7 +48,7 @@ let dish = [
         id: 6,
         name: 'Achuras pampeanas',
         description: 'Chinchulines, mollejas y otros bocados que logran un plato regional típico',
-        longDescription: 'Descripción de hinchulines, mollejas y otros bocados que logran un plato regional típico',
+        longDescription: 'Descripción de chinchulines, mollejas y otros bocados que logran un plato regional típico',
         price: 'U$S 72.00',
         link: '/detail/6',
         img: '/img/achuras.jpg'
