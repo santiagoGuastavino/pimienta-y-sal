@@ -12,4 +12,4 @@ Make HTML as dynamic as can be.
 ---
 
 *Template engine: ejs.*  
-*Both HTML & CSS were given as is.*  
+*Both HTML & CSS were provided as is.*  
