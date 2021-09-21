@@ -1,15 +1,11 @@
 [Pimienta y sal](https://pimienta-y-sal.herokuapp.com/)
 ---
 
-<h4>Dynamic HTML</h4>
+_First try at Dynamic HTML rendering_
+<h3>For this project I used:</h3>  
 
----
+- [ejs template engine](https://ejs.co/)
+- [Express.js](https://expressjs.com/)
+- Model View Controller best practices
 
-**Objective:**  
-Code the back-end of this restaurant e-commerce.  
-Make HTML as dynamic as can be.  
-
----
-
-*Template engine: ejs.*  
-*Both HTML & CSS were provided as is.*  
+This web app was developed following steps provided by the [Coding Academy](https://www.digitalhouse.com/) I was tutored by, and deployed to [Heroku](https://devcenter.heroku.com/start).
