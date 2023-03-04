@@ -1,18 +1,19 @@
-let express = require('express');
-let app = express();
-let path = require('path');
+const express = require('express')
+const app = express()
+const path = require('path')
 
-let mainRouter = require('./routes/main');
-let productRouter = require('./routes/product');
+const mainRouter = require('./routes/main')
+const productRouter = require('./routes/product')
 
-app.set('view engine', 'ejs');
-let viewsPath = path.resolve('./src/views');
-app.set('views', path.join(viewsPath));
+app.set('view engine', 'ejs')
+const viewsPath = path.resolve('./src/views')
+app.set('views', path.join(viewsPath))
 
-let publicPath = path.resolve('public');
-app.use(express.static(publicPath));
+const publicPath = path.resolve('public')
+app.use(express.static(publicPath))
 
-app.use('/', mainRouter);
-app.use('/detail', productRouter);
+app.use('/', mainRouter)
+app.use('/detail', productRouter)
 
-app.listen(process.env.PORT ||3001, () => console.log('Server running: 3001'));
+const PORT = process.env.PORT || 3000
+app.listen(PORT, () => console.log(`Server running @ ${PORT}`))

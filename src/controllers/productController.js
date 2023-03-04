@@ -1,21 +1,23 @@
-let dish = require('../database/dish');
-let navbar = {
-    home: '/#menu',
-    about: '/#about',
-    menu: '/#menu'
+const dish = require('../database/dish')
+const navbar = {
+  home: '/#menu',
+  about: '/#about',
+  menu: '/#menu'
 }
 
-let productController = {
-    dish,
-    renderDetail: (req,res) => {
-        let title = 'Featured today';
-        let dishId = req.params.id;
-        for (i=0 ; i < dish.length ; i++){
-            if (dishId == dish[i].id) {
-                res.render('./products/detail',{'title':title,'navbar':navbar,'dish':dish[i]});
-            }
-        }
-    },
+const productController = {
+  dish,
+  renderDetail: (req, res) => {
+    const title = 'Featured'
+    const dishId = req.params.id
+    let dishToShow
+    for (let i = 0; i < dish.length; i++) {
+      if (Number(dishId) === dish[i].id) {
+        dishToShow = dish[i]
+      }
+    }
+    res.render('./products/detail', { title, navbar, dish: dishToShow })
+  }
 }
 
-module.exports = productController;
+module.exports = productController

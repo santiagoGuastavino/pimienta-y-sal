@@ -1,14 +1,18 @@
-[Pimienta y sal](https://pimienta-y-sal.herokuapp.com/)
+[Pimienta y sal]()
 ---
 
-_First try at Dynamic HTML rendering with ejs template engine._
-<h3>For this project I used:</h3>  
-
-- [Node.js](https://nodejs.org/)
-    - [Express.js](https://expressjs.com/)
-    - [ejs template engine](https://ejs.co/)
-- Model View Controller best practices
+This Web App is a sample website for a restaurant's menu.  
+It was built with Node.js and Express.js with an MVC design and scaffolidng.  
+Developed for educational purposes and for fun's sake.  
 
 ---
 
-This web app was developed following steps provided by the [Coding Academy](https://www.digitalhouse.com/) I was tutored by, and deployed to [Heroku](https://devcenter.heroku.com/start).
+#### Project dependencies:
+
+- [Node.js](https://nodejs.org)  
+- [Express.js](https://expressjs.com/)
+- [ejs template engine](https://ejs.co/)
+
+---
+
+This MVC Web App has been deployed to [Render](https://render.com/).  
